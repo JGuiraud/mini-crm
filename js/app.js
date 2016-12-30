@@ -51,7 +51,7 @@ for (var i = 0; i < customers.length; i++) {
 
 
 
-// ------------------------ Correction ------------------------
+// ------------------------ Correction 1 -----------------------------------
  // for (var i = 0; i < customers.length; i++) {
 
  //    var divhtml = document.createElement("div");
@@ -67,10 +67,10 @@ for (var i = 0; i < customers.length; i++) {
  //                customers[i].email + "<br>"+"<br>" +
  //                customers[i].description + '</div>'
  //     } 
- // -----------------------------------------------------------
+ // ------------------------------------------------------------------------
 
 
-
+// -----------------------------Possibilité 1 ------------------------------
 // var customer1 = customers[0];
 // var customer2 = customers[1];
 // var customer3 = customers[2];
@@ -102,3 +102,4 @@ for (var i = 0; i < customers.length; i++) {
 // customers[2].phone + "<br>" +
 // customers[2].email + "<br>" +
 // customers[2].description 
+// ---------------------------------------------------------------------------
