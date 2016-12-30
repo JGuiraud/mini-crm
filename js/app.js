@@ -33,22 +33,41 @@ var customers = [
 
 
 
- for (var i = 0; i < customers.length; i++) {
+for (var i = 0; i < customers.length; i++) {
 
     var divhtml = document.createElement("div");
     var tartine = document.getElementById("main").appendChild(divhtml);
-    divhtml.classList.add('card');
+    
+    divhtml.classList.add('card'); // ou divhtml.className = "card";
     divhtml.innerHTML = 
-                "<h3>" + customers[i].first_name + " " + 
-                customers[i].last_name + "</h3>" + 
-                customers[i].company + ", " + 
-                customers[i].role + "<br>" +
-                customers[i].phone + "<br>" +
-                customers[i].email + "<br>"+"<br>" +
-                customers[i].description 
-     } 
+        "<h3>" + customers[i].first_name + " " + 
+        customers[i].last_name + "</h3>" + 
+        customers[i].company + ", " + 
+        customers[i].role + "<br>" +
+        customers[i].phone + "<br>" +
+        customers[i].email + "<br>"+"<br>" +
+        customers[i].description 
+} 
 
 
+
+// ------------------------ Correction ------------------------
+ // for (var i = 0; i < customers.length; i++) {
+
+ //    var divhtml = document.createElement("div");
+ //    var tartine = document.getElementById("main").appendChild(divhtml);
+    
+ //    divhtml.classList.add('card'); // ou divhtml.classNAme = "card";
+ //    divhtml.innerHTML = 
+ //                '<div class="content"><div class="header">' + customers[i].first_name + " " + 
+ //                customers[i].last_name + '</div>' + 
+ //                customers[i].company + ", " + 
+ //                customers[i].role + "<br>" +
+ //                customers[i].phone + "<br>" +
+ //                customers[i].email + "<br>"+"<br>" +
+ //                customers[i].description + '</div>'
+ //     } 
+ // -----------------------------------------------------------
 
 
 
